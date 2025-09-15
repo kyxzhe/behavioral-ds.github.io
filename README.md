@@ -1,7 +1,7 @@
 # Homepage for Behavioral Data Science at UTS
 
 ## Dependency
-Please make sure you have installed the `hugo` ([v0.60.1](https://github.com/gohugoio/hugo/releases/tag/v0.60.1)) for testing your changes. After cloning the project and making sure you are on the `source` branch, run `bash view.sh` within the project and then you'll be able to view your changes lively at: `localhost:1313`.
+Please make sure you have installed the `hugo` ([v0.150.0](https://github.com/gohugoio/hugo/releases/tag/v0.150.0)) for testing your changes. After cloning the project and making sure you are on the `source` branch, run `bash view.sh` within the project and then you'll be able to view your changes lively at: `localhost:1313`.
 
 ## Content management
 Adding a new piece of content to any pages can be done by adding a new post to the corresponding directories within the `content` folder. The following table shows the page and its corresponding folder

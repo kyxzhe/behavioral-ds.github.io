@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo --ignoreCache server
+hugo --ignoreCache server --environment production

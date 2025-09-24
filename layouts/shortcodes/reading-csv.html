@@ -13,7 +13,7 @@
     </tr>
   </thead>
   <tbody>
-    {{ $res := resources.Get "data/reading/reading_group_schedule.csv" }}
+    {{ $res := resources.Get "reading/reading_group_schedule.csv" }}
     {{ $rows := $res | transform.Unmarshal (dict "delimiter" ",") }}
     {{ range $i, $r := $rows }}
       {{ if ne $i 0 }}

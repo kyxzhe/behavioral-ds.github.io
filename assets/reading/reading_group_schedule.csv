@@ -23,7 +23,7 @@ Date,Presenter,Paper,Why should we care,Appear in,Repo,Blogs
 24/09/25,[Marian-Andrei Rizoiu](../authors/ma-rizoiu/),Paper that Andrei reviewed for IEEE Transactions on Computational Social Systems,The review process; the session covered research from the other side: the reviewer. And lessons learned for our own submissions.,IEEE Transactions on Computational Social Systems,,
 01/10/25,[Lin Tian](../authors/lin-tian/),Debrief on CLEF’25 and German research visit,"Lin presented at CLEF’25 and also did a one-week research visit in Germany, sponsored by [DAAD](https://www.daad.de/en/).",,,
 08/10/25,Cancelled,,,,,
-15/10/25,[Jooyoung Lee](../authors/jooyoung-lee/),,,,,
+15/10/25,[Jooyoung Lee](../authors/jooyoung-lee/),[Summary of a Haystack: A Challenge to Long-Context LLMs and RAG Systems](https://share.google/faoA93S39KX3yLJT0), Leverages the task of summarization as a testbed for evaluating long-context models and RAG systems.,EMNLP'24,,
 22/10/25,[Huixiang Fu](../authors/huixiang-fu),,,,,
 29/10/25,[Andrew Savchenko](../authors/andrew-savchenko),,,,,
 05/11/25,[Kevin Zheng](../authors/kevin-zheng/),,,,,

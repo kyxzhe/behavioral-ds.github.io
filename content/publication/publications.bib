@@ -1140,7 +1140,7 @@
    year = {2024},
 }
 
-@inproceedings{Tian2025,
+@inproceedings{Tian2025a,
    abstract = {In today's digital age, conspiracies and information campaigns can emerge rapidly and erode social and democratic cohesion. While recent deep learning approaches have made progress in modeling engagement through language and propagation models, they struggle with irregularly sampled data and early trajectory assessment. We present IC-Mamba, a novel state space model that forecasts social media engagement by modeling interval-censored data with integrated temporal embeddings. Our model excels at predicting engagement patterns within the crucial first 15-30 minutes of posting (RMSE 0.118-0.143), enabling rapid assessment of content reach. By incorporating interval-censored modeling into the state space framework, IC-Mamba captures fine-grained temporal dynamics of engagement growth, achieving a 4.72% improvement over state-of-the-art across multiple engagement metrics (likes, shares, comments, and emojis). Our experiments demonstrate IC-Mamba's effectiveness in forecasting both post-level dynamics and broader narrative patterns (F1 0.508-0.751 for narrative-level predictions). The model maintains strong predictive performance across extended time horizons, successfully forecasting opinion-level engagement up to 28 days ahead using observation windows of 3-10 days. These capabilities enable earlier identification of potentially problematic content, providing crucial lead time for designing and implementing countermeasures. Code is available at: https://github.com/ltian678/ic-mamba. An interactive dashboard demonstrating our results is available at: https://ic-mamba.behavioral-ds.science.},
    author = {Lin Tian and Emily Booth and Francesco Bailo and Julian Droogan and Marian-Andrei Rizoiu},
    doi = {10.1145/3696410.3714527},
@@ -1218,4 +1218,46 @@
    url_Paper = {http://arxiv.org/pdf/2505.10591.pdf},
    year = {2025}
 }
+
+@inproceedings{Tian2025b,
+   abstract = {State-sponsored trolls, malicious actors who deploy sophisticated linguistic manipulation in coordinated information campaigns, posing threats to online discourse integrity. While Large Language Models (LLMs) achieve strong performance on general natural language processing (NLP) tasks, they struggle with subtle propaganda detection and operate as ``black boxes'', providing no interpretable insights into manipulation strategies. This paper introduces X-Troll, a novel framework that bridges this gap by integrating explainable adapter-based LLMs with expert-derived linguistic knowledge to detect state-sponsored trolls and provide human-readable explanations for its decisions. X-Troll incorporates appraisal theory and propaganda analysis through specialized LoRA adapters, using dynamic gating to capture campaign-specific discourse patterns in coordinated information operations. Experiments on real-world data demonstrate that our linguistically-informed approach shows strong performance compared with both general LLM baselines and existing troll detection models in accuracy while providing enhanced transparency through expert-grounded explanations that reveal the specific linguistic strategies used by state-sponsored actors. X-Troll source code is available at: https://github.com/ltian678/xtroll_source/.},
+   author = {Lin Tian and Xiuzhen Zhang and Maria Myung-Hee Kim and Jennifer Biggs and Marian-Andrei Rizoiu},
+   city = {New York, NY, USA},
+   doi = {10.1145/3746252.3761028},
+   isbn = {9798400720406},
+   booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+   month = {11},
+   pages = {2874-2884},
+   publisher = {ACM},
+   title = {X-Troll: eXplainable Detection of State-Sponsored Information Operations Agents},
+   url = {https://dl.acm.org/doi/10.1145/3746252.3761028},
+   url_Paper = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761028},
+   year = {2025}
+}
+
+@inproceedings{Tian2025c,
+   abstract = {This paper presents our approach to EXIST 2025 Task 1, addressing text-based sexism detection in English and Spanish tweets through hierarchical Low-Rank Adaptation (LoRA) of Llama 3.1 8B. Our method introduces conditional adapter routing that explicitly models label dependencies across three hierarchically structured subtasks: binary sexism identification, source intention detection, and multilabel sexism categorization. Unlike conventional LoRA applications that target only attention layers, we apply adaptation to all linear transformations, enhancing the model's capacity to capture task-specific patterns. In contrast to complex data processing and ensemble approaches, we show that straightforward parameter-efficient fine-tuning achieves strong performance. We train separate LoRA adapters (rank=16, QLoRA 4-bit) for each subtask using unified multilingual training that leverages Llama 3.1's native bilingual capabilities. The method requires minimal preprocessing and uses standard supervised learning. Our multilingual training strategy eliminates the need for separate language-specific models, achieving 1.7-2.4\% F1 improvements through cross-lingual transfer. With only 1.67\% trainable parameters compared to full fine-tuning, our approach reduces training time by 75\% and model storage by 98\%, while achieving competitive performance across all subtasks (ICM-Hard: 0.6774 for binary classification, 0.4991 for intention detection, 0.6519 for multilabel categorization).},
+   author = {Lin Tian and Johanne R. Trippas and Marian-Andrei Rizoiu},
+   city = {Madrid, Spain},
+   editor = {Guglielmo Faggioli and Nicola Ferro and Paolo Rosso and Damiano Spina},
+   booktitle = {Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2025)},
+   month = {9},
+   title = {Mario at EXIST 2025: A Simple Gateway to Effective Multilingual Sexism Detection},
+   url = {https://www.dei.unipd.it/~faggioli/temp/clef2025/},
+   url_Paper = {https://arxiv.org/pdf/2507.10996},
+   year = {2025}
+}
+
+@inproceedings{Schneider2025a,
+   abstract = {Can large language model (LLM) agents reproduce the complex social dynamics that characterize human online behavior -- shaped by homophily, reciprocity, and social validation -- and what memory and learning mechanisms enable such dynamics to emerge? We present a multi-agent LLM simulation framework in which agents repeatedly interact, evaluate one another, and adapt their behavior through in-context learning accelerated by a coaching signal. To model human social behavior, we design behavioral reward functions that capture core drivers of online engagement, including social interaction, information seeking, self-presentation, coordination, and emotional support. These rewards align agent objectives with empirically observed user motivations, enabling the study of how network structures and group formations emerge from individual decision-making. Our experiments show that coached LLM agents develop stable interaction patterns and form emergent social ties, yielding network structures that mirror properties of real online communities. By combining behavioral rewards with in-context adaptation, our framework establishes a principled testbed for investigating collective dynamics in LLM populations and reveals how artificial agents may approximate or diverge from human-like social behavior.},
+   author = {Philipp J. Schneider and Lin Tian and Marian-Andrei Rizoiu},
+   city = {San Diego},
+   booktitle = {Scaling Environments for Agents (SEA) @NeurIPS 2025},
+   month = {12},
+   title = {Learning to Make Friends: Coaching LLM Agents toward Emergent Social Ties},
+   url = {https://sea-workshop.github.io/},
+   url_Paper = {https://arxiv.org/pdf/2510.19299},
+   year = {2025}
+}
+
 

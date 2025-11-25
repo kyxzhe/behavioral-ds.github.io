@@ -1,0 +1,74 @@
+---
+# Display name
+name: Majid Akhtar
+
+# Username (this should match the folder name)
+authors:
+- majid-akhtar
+
+# Is this the primary user of the site?
+superuser: false
+
+# Role/position
+role: Postdoctoral Research Associate<br/>
+
+# Organizations/Affiliations
+organizations:
+- name: University of Technology Sydney
+
+# Short bio (displayed in user profile at end of posts)
+# bio: I am a Ph.D. student from the Computational Media Lab at the Research School of Computer Science of The Australian National University and affiliated with Data61, CSIRO. I am supervised by Dr Marian-Andrei Rizoiu, Prof Lexing Xie and Dr Stephen Wan. My current research focuses on modeling information diffusion in social media. Specifically, I am working on understanding the connection between epidemic models and self-exciting point processes and quantifying online diffusions with tools from the connection. 
+bio: |
+  I am a Postdoctoral Research Associate in Behavioral Data Science lab, DSI Team at University of Technology Sydney (UTS) and working with Marian-Andrei Rizoiu on developing machine learning solutions to counter disinformation campaigns and adversarial narratives online.
+  
+  Previously, I submitted my Ph.D. thesis at the School of Computer Science and Engineering, University of New South Wales (UNSW), Sydney, where I specialised in cybersecurity and applied machine learning, focusing on detecting social media manipulations. My research covers areas such as false information detection, social bot identification, and malicious campaign analysis. My work has been published in leading peer-reviewed journals (such as OSNEM) and presented at top-tier conferences including WWW, AsiaCCS, and LCN.
+
+  Outside of research, I am always happy to chat about research—or soccer—over coffee.
+
+  To know more in detail about my research, please explore this link https://mohdmajidakhtar.github.io/
+
+
+interests:
+- Misinformation Detection
+- NLP and ML
+- Computational Social Science
+
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: "mailto:mohammadmajid.akhtar@uts.edu.au"
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=s0S12tUAAAAJ&hl=en
+- icon: user
+  icon_pack: fas
+  link: https://mohdmajidakhtar.github.io/
+
+
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+#  one of ["Principal Investigators",
+#                  "Researchers",
+#                  "PhD Students",
+#                  "Administration",
+#                  "Visitors",
+#                  "Alumni"]
+user_groups:
+- Academics and Scientists
+
+weight: 10
+---

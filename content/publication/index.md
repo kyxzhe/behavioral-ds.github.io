@@ -1,7 +1,8 @@
----
-type: "publication"
-title: "Publications"
----
++++
+type = "publication"
+title = "Publications"
+headless = false
++++
 
 {{< loadbibtex >}}
 <bibtex src="publications.bib"></bibtex>

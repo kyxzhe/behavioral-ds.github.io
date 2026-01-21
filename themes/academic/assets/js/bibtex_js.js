@@ -1220,7 +1220,7 @@ if (!window.jQuery || !window.moment) {
         //Add moment to the webpage for dates
         var mo = document.createElement('script');
         mo.type = 'text/javascript';
-        mo.src = 'https://rawgit.com/moment/moment/2.22.2/min/moment.min.js';
+        mo.src = '/js/moment_v2-30-1_min.js';
         document.getElementsByTagName('head')[0].appendChild(mo);
     }
 

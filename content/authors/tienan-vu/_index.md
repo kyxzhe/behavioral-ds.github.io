@@ -9,7 +9,7 @@ authors:
 superuser: false
 
 # Role/position
-role: Undergraduate Honours Student @ UTS
+role: Undergraduate Honours Student
 
 # Organizations/Affiliations
 organizations:
@@ -19,9 +19,9 @@ organizations:
 body: | 
   I am a Bachelor of Computing Science (Honours) student at the University of Technology Sydney (UTS), supervised by Dr Marian-Andrei Rizoiu and co-supervised by Dr Lin Tian. My research interests are in conversational AI and NLP, with an emphasis on how systems can remember and follow user preferences over long interactions.
 
-  **Position at UTS:** Tien is an Honours student with the Behavioral Data Science lab in UTS.
-  
-  **Next position after UTS:** N/A
+#  **Position at UTS:** Tien is an Honours student with the Behavioral Data Science lab in UTS.
+#  
+#  **Next position after UTS:** N/A
   
 # bio: I am a Ph.D. student from the Computational Media Lab at the Research School of Computer Science of The Australian National University and affiliated with Data61, CSIRO. I am supervised by Dr Marian-Andrei Rizoiu, Prof Lexing Xie and Dr Stephen Wan. My current research focuses on modeling information diffusion in social media. Specifically, I am working on understanding the connection between epidemic models and self-exciting point processes and quantifying online diffusions with tools from the connection. 
 bio: I am a Bachelor of Computing Science (Honours) student at the University of Technology Sydney (UTS), supervised by Dr Marian-Andrei Rizoiu and co-supervised by Dr Lin Tian. My research interests are in conversational AI and NLP, with an emphasis on how systems can remember and follow user preferences over long interactions. In particular, I explore compact memory representations and retrieval strategies that improve preference adherence while reducing long-context latency and cost.

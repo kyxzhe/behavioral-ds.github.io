@@ -11,8 +11,10 @@ design:
  columns: "1"
 ---
 
-## Schedule 2025
+## Schedule 2026
 {{< reading-csv >}}
+
+[2025 Archive](/reading2025)
 
 [2024 Archive](/reading2024)
 

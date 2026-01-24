@@ -3,15 +3,15 @@
 
 widget: "blank"
 headless: true 
-title: "Reading Group 2024 Archive"
+title: "Reading Group 2025 Archive"
 subtitle: "Current Schedule: [Link](/reading)"
 
 design:
  columns: "1"
 ---
 
-## Schedule 2024
-{{< reading-csv-2024 >}}
+## Schedule 2025
+{{< reading-csv-2025 >}}
 
 
 

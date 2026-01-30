@@ -285,7 +285,7 @@
     booktitle = {Ontology Learning and Knowledge Discovery Using the Web},
     doi = {10.4018/978-1-60960-625-1.ch003},
     editor = {Wong, Wilson and Liu, Wei and Bennamoun, Mohammed},
-    URL_paper = {https://eric.univ-lyon2.fr/~jvelcin/public/publis/bookchapter_rizoiu_2011.pdf},
+    URL_paper = {https://hal.science/file/index/docid/590557/filename/chapter_TopicExtractionForOntologyLearning.pdf},
     pages = {38--60},
     publisher = {IGI Global},
     title = {{Topic Extraction for Ontology Learning}},
@@ -1149,6 +1149,7 @@
    title = {Before It's Too Late: A State Space Model for the Early Prediction of Misinformation and Disinformation Engagement},
    url = {https://doi.org/10.1145/3696410.3714527},
    url_Paper = {https://arxiv.org/pdf/2502.04655},
+   url_code = {https://github.com/ltian678/ic-mamba},
    year = {2025}
 }
 @inproceedings{LanqinYuan2025,
@@ -1239,6 +1240,8 @@
    title = {X-Troll: eXplainable Detection of State-Sponsored Information Operations Agents},
    url = {https://dl.acm.org/doi/10.1145/3746252.3761028},
    url_Paper = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761028},
+   url_code = {https://github.com/ltian678/xtroll_source/},
+   url_slides = {../extra/TIAN_xtroll_CIKM25.pdf},
    year = {2025}
 }
 
@@ -1252,6 +1255,7 @@
    title = {Mario at EXIST 2025: A Simple Gateway to Effective Multilingual Sexism Detection},
    url = {https://www.dei.unipd.it/~faggioli/temp/clef2025/},
    url_Paper = {https://arxiv.org/pdf/2507.10996},
+   url_slides = {../extra/TIAN_mario_Exist25.pdf},
    year = {2025}
 }
 
@@ -1267,4 +1271,28 @@
    year = {2025}
 }
 
+@inproceedings{Tian2026Causal,
+   abstract = {Understanding true influence in social media requires distinguishing correlation from causation--particularly when analyzing misinformation spread. While existing approaches focus on exposure metrics and network structures, they often fail to capture the causal mechanisms by which external temporal signals trigger engagement. We introduce a novel joint treatment-outcome framework that leverages existing sequential models to simultaneously adapt to both policy timing and engagement effects. Our approach adapts causal inference techniques from healthcare to estimate Average Treatment Effects (ATE) within the sequential nature of social media interactions, tackling challenges from external confounding signals. Through our experiments on real-world misinformation and disinformation datasets, we show that our models outperform existing benchmarks by 15--22% in predicting engagement across diverse counterfactual scenarios, including exposure adjustment, timing shifts, and varied intervention durations. Case studies on 492 social media users show our causal effect measure aligns strongly with the gold standard in influence estimation, the expert-based empirical influence.},
+   author = {Lin Tian and Marian-Andrei Rizoiu},
+   booktitle = {AAAI Conference on Artificial Intelligence (AAAI'26)},
+   month = {5},
+   title = {Estimating Online Influence Needs Causal Modeling! Counterfactual Analysis of Social Media Engagement},
+   url_Paper = {http://arxiv.org/pdf/2505.19355.pdf},
+   url_Slides = {../extra/TIAN_CITRUS_AAAI26.pdf},
+   year = {2026}
+}
+
+@inproceedings{Tian2026,
+   abstract = {Social media engagement prediction is a central challenge in computational social science, particularly for understanding how users interact with misinformation. Existing approaches often treat engagement as a homogeneous time-series signal, overlooking the heterogeneous social mechanisms and platform designs that shape how misinformation spreads. In this work, we ask: “Can neural architectures discover social exchange principles from behavioral data alone?” We introduce Dreams (Disentangled Representations and Episodic Adaptive Modeling for Social media misinformation engagements), a social exchange theory-guided framework that models misinformation engagement as a dynamic process of social exchange. Rather than treating engagement as a static outcome, Dreams models it as a sequence-to-sequence adaptation problem, where each action reflects an evolving negotiation between user effort and social reward conditioned by platform context. It integrates adaptive mechanisms to learn how emotional and contextual signals propagate through time and across platforms. On a cross-platform dataset spanning 7 platforms and 2.37M posts collected between 2021 and 2025, Dreams achieves state-of-the-art performance in predicting misinformation engagements, reaching a mean absolute percentage error of 19.25%. This is a 43.6% improvement over the strongest baseline. Beyond predictive gains, the model reveals consistent cross-platform patterns that align with social exchange principles, suggesting that integrating behavioral theory can enhance empirical modeling of online misinformation engagement. The source code is available at: https://github.com/ltian678/DREAMS.},
+   author = {Lin Tian and Marian-Andrei Rizoiu},
+   city = {Dubai, United Arab Emirates},
+   doi = {10.1145/3774904.3792681},
+   booktitle = {ACM Web Conference 2026 (WWW ’26)},
+   month = {4},
+   pages = {1-12},
+   publisher = {ACM, New York, NY},
+   title = {DREAMS: A Social Exchange Theory-Informed Modeling of Misinformation Engagement on Social Media},
+   url_code = {https://github.com/ltian678/DREAMS},
+   year = {2026}
+}
 
